@@ -1,0 +1,23 @@
+.head {
+    padding: 0 20px;
+    height: 70px;
+}
+
+.head > * {
+    float: left;
+    display: block;
+}
+.head h1 a{
+    display: block;
+    height: 70px;
+    width: 90px;
+    background: url("../img/logo.jpg") no-repeat ;
+    background-size: 90px ;
+}
+.space-between{
+    height: 70px;
+    margin-left: 100px;
+}
+.space-between>li{
+    margin-right: 20px;
+}
