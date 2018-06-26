@@ -10,13 +10,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta content="telephone=no" name="format-detection"/>
     <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <script src="./js/index.js" type="text/javascript"></script>
     <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta name=keywords content="慕课网,腾讯课堂,51cto,CSDN学院,妙味课堂,麦子学院">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
-    <meta name="viewport"
-          content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
-    <meta name=keywords content="2018俄罗斯世界杯,世界杯,2018世界杯,视频直播世界杯,世界杯视频,世界杯直播">
-    <meta name=description
-          content="2018年俄罗斯世界杯是第21届世界杯足球赛，比赛于2018年6月14日至7月15日在俄罗斯境内11座城市中的12座球场内举行，这是世界杯首次在俄罗斯境内举行。央视网(CCTV.com)全程视频直播世界杯，提供世界杯视频回看，提供世界杯动态信息及央视的。">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <script type="text/javascript">window.cto = {};window.CSDN = {};window.miaov = {};window.imooc = {};window.qq = {};window.maiziedu = {};</script>
+    <meta name=description content="2018年俄罗斯世界杯是第21届世界杯足球赛，比赛于2018年6月14日至7月15日在俄罗斯境内11座城市中的12座球场内举行，这是世界杯首次在俄罗斯境内举行。央视网(CCTV.com)全程视频直播世界杯，提供世界杯视频回看，提供世界杯动态信息及央视的。">
 </head>
 <body>
 <!--<h1>hello world</h1>-->
@@ -26,13 +26,12 @@
     <ul class="space-between">
         <li>慕课网</li>
         <li>腾讯课堂</li>
-        <li>51TCO</li>
+        <li>51cto</li>
         <li>CSDN学院</li>
         <li>妙味课堂</li>
         <li>麦子学院</li>
-        <li>黑马程序员</li>
         <li class="search">
-            <input type="text" placeholder="输入你要的资源"/><span></span>
+            <input id="searchNode" type="text" placeholder="输入你要的资源"/><span id="searchButton"></span>
         </li>
     </ul>
     <div class="fr comments">
@@ -84,7 +83,7 @@
 </div>
 <div class="result">
     <ul>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/1.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -92,7 +91,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/2.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -100,7 +99,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/3.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -108,7 +107,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/4.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -116,7 +115,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/5.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -124,7 +123,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/3.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -132,7 +131,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/2.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -140,7 +139,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/3.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -148,7 +147,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/1.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -156,7 +155,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/2.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -164,7 +163,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/3.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -172,7 +171,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/2.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -180,7 +179,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/3.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -188,7 +187,7 @@
             <p class="title">全网首发mpvue课程小程序全栈开mpvue课程小程序全栈开</p>
             <p class="author">蜗牛老湿</p>
         </li>
-        <li class="brick-item-active">
+        <li>
             <div>
                 <img src="./img/1.jpg" alt="全网首发mpvue课程小程序全栈开">
             </div>
@@ -199,9 +198,75 @@
     </ul>
 </div>
 <div class="footer space-between">
-    <p>Copyright © 2013-2018 学习资源  xuexiziyuan.net All Rights Reserved. 备案号：闽ICP备15888888号-1</p>
+    <p>Copyright © 2013-2018 学习资源 xuexiziyuan.net All Rights Reserved. 备案号：闽ICP备15888888号-1</p>
 </div>
+<script src="./js/util.js" type="text/javascript"></script>
 
+<script src="./json/51cto/后端.js" type="text/javascript"></script>
+<script src="./json/51cto/前端.js" type="text/javascript"></script>
+<script src="./json/51cto/人工智能.js" type="text/javascript"></script>
+<script src="./json/51cto/云计算.js" type="text/javascript"></script>
+<script src="./json/51cto/UI设计.js" type="text/javascript"></script>
+<script src="./json/51cto/大数据.js" type="text/javascript"></script>
+<script src="./json/51cto/数据库.js" type="text/javascript"></script>
+<script src="./json/51cto/测试.js" type="text/javascript"></script>
+<script src="./json/51cto/移动端.js" type="text/javascript"></script>
+<script src="./json/51cto/运维.js" type="text/javascript"></script>
+
+<script src="./json/CSDN学院/后端.js" type="text/javascript"></script>
+<script src="./json/CSDN学院/前端.js" type="text/javascript"></script>
+<script src="./json/CSDN学院/人工智能.js" type="text/javascript"></script>
+<script src="./json/CSDN学院/云计算.js" type="text/javascript"></script>
+<script src="./json/CSDN学院/UI设计.js" type="text/javascript"></script>
+<script src="./json/CSDN学院/大数据.js" type="text/javascript"></script>
+<script src="./json/CSDN学院/数据库.js" type="text/javascript"></script>
+<script src="./json/CSDN学院/测试.js" type="text/javascript"></script>
+<script src="./json/CSDN学院/移动端.js" type="text/javascript"></script>
+<script src="./json/CSDN学院/运维.js" type="text/javascript"></script>
+
+<script src="./json/妙味课堂/后端.js" type="text/javascript"></script>
+<script src="./json/妙味课堂/前端.js" type="text/javascript"></script>
+<script src="./json/妙味课堂/人工智能.js" type="text/javascript"></script>
+<script src="./json/妙味课堂/云计算.js" type="text/javascript"></script>
+<script src="./json/妙味课堂/UI设计.js" type="text/javascript"></script>
+<script src="./json/妙味课堂/大数据.js" type="text/javascript"></script>
+<script src="./json/妙味课堂/数据库.js" type="text/javascript"></script>
+<script src="./json/妙味课堂/测试.js" type="text/javascript"></script>
+<script src="./json/妙味课堂/移动端.js" type="text/javascript"></script>
+<script src="./json/妙味课堂/运维.js" type="text/javascript"></script>
+
+<script src="./json/慕课网/后端.js" type="text/javascript"></script>
+<script src="./json/慕课网/前端.js" type="text/javascript"></script>
+<script src="./json/慕课网/人工智能.js" type="text/javascript"></script>
+<script src="./json/慕课网/云计算.js" type="text/javascript"></script>
+<script src="./json/慕课网/UI设计.js" type="text/javascript"></script>
+<script src="./json/慕课网/大数据.js" type="text/javascript"></script>
+<script src="./json/慕课网/数据库.js" type="text/javascript"></script>
+<script src="./json/慕课网/测试.js" type="text/javascript"></script>
+<script src="./json/慕课网/移动端.js" type="text/javascript"></script>
+<script src="./json/慕课网/运维.js" type="text/javascript"></script>
+
+<script src="./json/腾讯课堂/后端.js" type="text/javascript"></script>
+<script src="./json/腾讯课堂/前端.js" type="text/javascript"></script>
+<script src="./json/腾讯课堂/人工智能.js" type="text/javascript"></script>
+<script src="./json/腾讯课堂/云计算.js" type="text/javascript"></script>
+<script src="./json/腾讯课堂/UI设计.js" type="text/javascript"></script>
+<script src="./json/腾讯课堂/大数据.js" type="text/javascript"></script>
+<script src="./json/腾讯课堂/数据库.js" type="text/javascript"></script>
+<script src="./json/腾讯课堂/测试.js" type="text/javascript"></script>
+<script src="./json/腾讯课堂/移动端.js" type="text/javascript"></script>
+<script src="./json/腾讯课堂/运维.js" type="text/javascript"></script>
+
+<script src="./json/麦子学院/后端.js" type="text/javascript"></script>
+<script src="./json/麦子学院/前端.js" type="text/javascript"></script>
+<script src="./json/麦子学院/人工智能.js" type="text/javascript"></script>
+<script src="./json/麦子学院/云计算.js" type="text/javascript"></script>
+<script src="./json/麦子学院/UI设计.js" type="text/javascript"></script>
+<script src="./json/麦子学院/大数据.js" type="text/javascript"></script>
+<script src="./json/麦子学院/数据库.js" type="text/javascript"></script>
+<script src="./json/麦子学院/测试.js" type="text/javascript"></script>
+<script src="./json/麦子学院/移动端.js" type="text/javascript"></script>
+<script src="./json/麦子学院/运维.js" type="text/javascript"></script>
 
 </body>
 </html>
