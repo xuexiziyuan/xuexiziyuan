@@ -1,12 +1,10 @@
-var meta;
-var global = window;
+var meta, global = window;
 global.searchNode = document.getElementById('searchNode');
 global.searchButton = document.getElementById('searchButton');
 global.navResult = document.getElementById('navResult');
 global.result = document.getElementById('result');
 global.list = transformTo(document.getElementsByClassName('list'));
 global.li = transformTo(document.getElementsByClassName('li'));
-
 global.delay = function delay(fn, value) {
     clearTimeout(meta);
     meta = setTimeout(function () {
@@ -38,3 +36,4 @@ function transformTo(list) {
         return {node: i, name: i.getAttribute('name')}
     });
 }
+

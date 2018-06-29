@@ -1,11 +1,17 @@
-var searchOldValue;
-var listIndex;
-var liIndex;
-var activeItem = 'imooc';
-var activeItemKey = 'frontEnd';
+var searchOldValue, listIndex, liIndex, activeItem = 'imooc', activeItemKey = 'frontEnd', dataList = [];
 
 function searchData(value) {
-    console.log(list)
+    var resultArr = {item: []};
+    dataList.map(function (itemList) {
+        itemList.item.map(function (val) {
+            var targetText = val.author + val.from + val.title;
+            if (new RegExp(value, 'i').test(targetText)) {
+                resultArr.item.push(val)
+            }
+        })
+
+    });
+    showResult(resultArr)
 }
 
 function isSearch(value) {
@@ -55,7 +61,6 @@ function showList(data) {
 }
 
 function listResult() {
-    console.log(window[activeItem][activeItemKey]);
     showList(window[activeItem][activeItemKey])
 }
 
@@ -91,6 +96,10 @@ window.onload = function () {
             listResult();
         }
     });
+    ['cto', 'CSDN', 'miaov', 'imooc', 'qq', 'maiziedu'].map(function (item) {
+        for (var key in window[item])
+            dataList = dataList.concat(window[item][key])
 
+    });
     listResult()
 };

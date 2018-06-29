@@ -21,7 +21,7 @@ window.imooc.ui = [
                 url: '1.jpg',
                 from: '慕课网',
                 title: '高薪设计师必修课 AE移动UI动效设计从入门到实战',
-                author: '墨染ART'
+                author: '邓世杰'
             }
         ]
     },
