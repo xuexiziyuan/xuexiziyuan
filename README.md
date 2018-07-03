@@ -1,1 +1,1 @@
-# xuexiziyuan
+# 学习资源网 www.xuexiziyuan.net
