@@ -3,6 +3,7 @@ window.imooc.ui = [
         name: '动效动画',
         item: [
             {
+                id: '1',
                 url: 'ui.jpg',
                 from: '慕课网',
                 title: '高薪设计师必修课 AE移动UI动效设计从入门到实战',
@@ -18,6 +19,7 @@ window.imooc.ui = [
         name: '设计工具',
         item: [
             {
+                id: '2',
                 url: '1.jpg',
                 from: '慕课网',
                 title: '高薪设计师必修课 AE移动UI动效设计从入门到实战',

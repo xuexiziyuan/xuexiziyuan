@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>学习资源</title>
+    <link rel="stylesheet" href="./css/step.css">
     <link rel="stylesheet" href="./css/base.css">
     <meta http-equiv="Pragma" content="no-cache"/>
     <link rel="stylesheet" href="./css/index.css">
@@ -17,7 +18,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
     <meta name="viewport"
           content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
-    <script type="text/javascript">console.log(uaredirect('/warning'));
+    <script type="text/javascript">uaredirect('/warning');
     ['cto', 'CSDN', 'miaov', 'imooc', 'qq', 'maiziedu'].map(function (item) {
         window[item] = {};
     })</script>
@@ -42,7 +43,7 @@
     </ul>
     <div class="fr comments">
         <i></i>
-        <button>加入我们</button>
+        <button><a href="/join">加入我们</a></button>
     </div>
 </div>
 <div class="retrieve">
@@ -70,11 +71,45 @@
 <div class="footer space-between">
     <p>
         完整●高清●免费●学习资源分享网站；
-        如果你有资源 <a href="./join.html">加入我们</a>，
+        如果你有资源 <a href="/join">加入我们</a>，
         获取资源 <a href="/about">关于我们</a>,
         缺少某些资源，或某些资源有问题，邮件我们：xuexiziyuan(艾特)gmx.com
     </p>
 </div>
+
+<div class="maskLayer" id="maskLayer" onclick="hideClick()"></div>
+<div class="content" id="content">
+    <div class="procedure">
+        <p>本站不做一分钱盈利,所有资源争取是：完整●高清</p>
+        <p>邀请您 <a href="/join">加入我们</a>，获取所有 完整●高清●免费●学习资源</p>
+        <p>有关获取资源的详细内容请猛击：<a href="/about">关于我们</a></p>
+        <p></p>
+        <div class="procedureStyle">
+            <div>
+                <div class="box pointer--bottom">
+                    <p class="text--center">第一步：扫描右边二维码</p>
+                </div>
+                <div class="box pointer--bottom">
+                    <p class="text--center">第二步：进入公众号选择钱包</p>
+                </div>
+                <div class="box pointer--bottom">
+                    <p class="text--center">第三步：输入钱包地址 申请加入</p>
+                </div>
+                <div class="box pointer--bottom">
+                    <p class="text--center">第四步：输入资源 编号，获取资源</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="product">
+        <img src="./img/QRCode.jpg" width="100%">
+        <br>
+        <br>
+        <ul id="identifier"></ul>
+    </div>
+</div>
+
 <script src="./js/util.js" type="text/javascript"></script>
 
 <script src="./data/51cto/后端.js" type="text/javascript"></script>

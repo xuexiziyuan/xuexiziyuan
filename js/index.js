@@ -61,7 +61,7 @@ function showList(data) {
 }
 
 function listResult() {
-    showList(window[activeItem][activeItemKey])
+    showList(window[activeItem][activeItemKey]);
 }
 
 
@@ -99,7 +99,6 @@ window.onload = function () {
     ['cto', 'CSDN', 'miaov', 'imooc', 'qq', 'maiziedu'].map(function (item) {
         for (var key in window[item])
             dataList = dataList.concat(window[item][key])
-
     });
-    listResult()
+    listResult();
 };
