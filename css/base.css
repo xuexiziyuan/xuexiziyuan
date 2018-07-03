@@ -158,6 +158,7 @@ a:focus, *:focus {
 .fr {
     float: right;
 }
+
 /* placeholder 颜色 */
 ::-webkit-input-placeholder { /* WebKit browsers */
     color: #efefef;
@@ -174,3 +175,25 @@ a:focus, *:focus {
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color: #efefef;
 }
+
+/*a*/
+a:link {
+    color: #0000FF
+}
+
+/* 未访问的链接 */
+a:visited {
+    color: #0000FF
+}
+
+/* 已访问的链接 */
+a:hover {
+    color: #0000FF
+}
+
+/* 当有鼠标悬停在链接上 */
+a:active {
+    color: #0000FF
+}
+
+/* 被选择的链接 */
